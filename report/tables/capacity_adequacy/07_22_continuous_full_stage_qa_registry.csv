@@ -1,0 +1,18 @@
+qa_file,qa_check_count,qa_pass_count,all_checks_passed,qa_scope
+07_07_cdr_seasonal_supply_qa.csv,3,3,True,07_07_cdr_seasonal_supply_qa
+07_08_future_growth_qa.csv,3,3,True,07_08_future_growth_qa
+07_09_future_peak_demand_qa.csv,4,4,True,07_09_future_peak_demand_qa
+07_10_summer_capacity_adequacy_qa.csv,8,8,True,07_10_summer_capacity_adequacy_qa
+07_11_target_reserve_margin_qa.csv,8,8,True,07_11_target_reserve_margin_qa
+07_12_resource_elcc_qa.csv,6,6,True,07_12_resource_elcc_qa
+07_13_ibr_effective_capacity_qa.csv,7,7,True,07_13_ibr_effective_capacity_qa
+07_14_seasonal_capacity_adequacy_qa.csv,12,12,True,07_14_seasonal_capacity_adequacy_qa
+07_15_supply_stress_qa.csv,16,16,True,07_15_supply_stress_qa
+07_16_regional_capacity_allocation_qa.csv,12,12,True,07_16_regional_capacity_allocation_qa
+07_17_final_tables_qa.csv,10,10,True,07_17_final_tables_qa
+07_18_final_stage_qa.csv,14,14,True,07_18 final endpoint-stage audit
+07_19_cdr_unit_seasonal_capacity_qa.csv,11,11,True,07_19 continuous unit-season capacity
+07_20_continuous_ibr_effective_capacity_qa.csv,13,13,True,07_20 continuous IBR effective capacity
+07_21_continuous_capacity_adequacy_qa.csv,13,13,True,07_21A continuous capacity adequacy
+07_21_continuous_supply_stress_qa.csv,17,17,True,07_21B continuous supply stress
+07_22_continuous_final_stage_qa.csv,15,15,True,07_22 continuous final-stage audit

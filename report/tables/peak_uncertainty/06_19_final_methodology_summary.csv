@@ -1,0 +1,8 @@
+component,selected_method,calibration_data,purpose
+Hourly point forecast,"Eight regional Ridge models, alpha=100",2019–2024 training; 2025 test,Raw hourly system and regional load forecast
+P50 hourly calibration,Annual forecast-decile empirical residual median,2023–2024 out-of-sample residuals,Bias-corrected central hourly forecast
+Winter and Autumn P90/P95,Seasonal forecast-decile empirical residual quantiles,2023–2024 out-of-sample residuals,Season-sensitive upper hourly bounds
+Spring and Summer P90/P95,Annual forecast-decile empirical residual quantiles,2023–2024 out-of-sample residuals,Stable high-load upper hourly bounds
+Peak probability distribution,Season and daily-peak-quintile conditioned daily-block bootstrap,2023–2024 daily residual blocks,"Annual, seasonal and monthly peak P50/P90/P95/P99"
+Stress test,Independent conditional hourly residual bootstrap,2023–2024 residuals,Conservative extreme-risk scenario only
+Regional allocation,Historically calibrated simultaneous peak shares,2023–2024 forecast-peak regional shares,Allocate system planning scenarios without summing noncoincident peaks
