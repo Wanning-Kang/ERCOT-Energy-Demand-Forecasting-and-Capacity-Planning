@@ -144,6 +144,20 @@ Final peak-planning results are the `06_16_final_*_capacity_planning.csv` files 
 
 Final capacity results use the `07_21_continuous_*` and `07_22_continuous_*` tables under `report/tables/capacity_adequacy/`. Earlier endpoint-stage outputs remain intermediate analyses.
 
+## Supporting Result Tables
+
+### Forecasting Performance
+- [2025 System Model Comparison](report/tables/forecasting/test_2025_system_model_comparison.csv)
+
+### Peak-Demand Uncertainty
+- [Annual Peak Planning Results](report/tables/peak_uncertainty/06_16_final_annual_capacity_planning.csv)
+- [Final Calibration Methodology](report/tables/peak_uncertainty/06_19_final_methodology_summary.csv)
+
+### Capacity Adequacy
+- [Final Capacity Metrics](report/tables/capacity_adequacy/07_22_continuous_final_key_metrics.csv)
+- [Supply-Stress Ranking](report/tables/capacity_adequacy/07_22_continuous_supply_stress_ranking.csv)
+- [Supply-Stress Scenarios](report/tables/capacity_adequacy/07_21_continuous_supply_stress_scenarios.csv)
+- [Quality Assurance Registry](report/tables/capacity_adequacy/07_22_continuous_full_stage_qa_registry.csv)
 
 ## Limitations
 
