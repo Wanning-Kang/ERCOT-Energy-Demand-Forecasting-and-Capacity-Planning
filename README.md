@@ -36,6 +36,38 @@ Under the project's 2025 P95 baseline demand case, planning capacity exceeds dem
 
 The 90 baseline combinations cover five planning years, two seasons, three growth paths, and three demand quantiles. Applying six supply scenarios produces 540 combinations; this set includes the unchanged-supply baseline.
 
+## Selected Figures
+
+### 1. Historical ERCOT Load Trends (2019–2025)
+
+![ERCOT Annual Load Trends](report/figures/annual_ercot_load_trends_2019_2025.png)
+
+Annual average load, peak demand, and total electricity consumption across ERCOT from 2019 to 2025. Average demand and annual energy consumption increased substantially over the study period.
+
+### 2. Regional Weather Sensitivity
+
+![Regional Weather Sensitivity](report/figures/calendar_controlled_weather_sensitivity.png)
+
+Calendar-controlled estimates of regional electricity load sensitivity to cooling degree days (CDD) and heating degree days (HDD), highlighting differences in weather-related demand patterns across eight ERCOT zones.
+
+### 3. Hourly Load Forecasting Around the 2025 Annual Peak
+
+![2025 Peak Forecast Comparison](report/figures/test_2025_annual_peak_window.png)
+
+Comparison of actual hourly load, Ridge regression predictions, and the Lag-24 baseline around the 2025 annual peak. Ridge improves overall forecasting accuracy but still underpredicts certain high-demand periods.
+
+### 4. Peak-Demand Uncertainty Scenarios
+
+![Annual Peak Planning Scenarios](report/figures/annual_peak_planning_scenarios.png)
+
+Comparison of the raw Ridge peak prediction, daily-block Bootstrap peak-demand quantiles, and an independent-hour stress scenario. The simulated P50, P90, and P95 annual peak estimates support risk-aware capacity planning.
+
+### 5. Worst-Case Capacity Requirements (2025–2029)
+
+![Worst-Case Capacity Need](report/figures/07_22_continuous_system_worst_case_capacity_need.png)
+
+Modeled additional capacity requirements under the specified compound supply-stress and demand-growth assumptions. These deterministic worst-case scenarios illustrate potential capacity risks and do not represent expected outcomes or event probabilities.
+
 ## Workflow
 
 ```text
